@@ -1,0 +1,23 @@
+﻿@using ProductsLibrary;
+@{
+    Page.Title  = "A list of guitars";
+    var filePath = Server.MapPath("data/guitars.json");
+    var guitars = Database.GetGuitars(filePath);
+}
+<table border="1">
+    <tr>
+        <td>Name</td>
+        <td>Brand</td>
+        <td>Color</td>
+        <td>Style</td>
+    </tr>
+    @foreach (Guitar guitar in guitars)
+    {
+        <tr>
+            <td> <a href="SpecificGuitar?id=@guitar.Id">@guitar.Name</a> </td>
+            <td>@guitar.Color</td>
+            <td>@guitar.Style</td>
+        </tr>
+    }
+
+</table>

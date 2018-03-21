@@ -1,0 +1,24 @@
+﻿NeatButik.dk, not affiliated with CoolShop.dk
+Products page
+Categories:
+	-Video games
+		-Sony
+		-Nintendo
+		-PC 
+	-Guitars
+		-Fender
+		-Epiphone
+		-Gibson
+
+Thing attributes:
+	Id
+	Name
+	Brand
+
+Video Game attributes:
+	PEGI rating
+	Genre
+
+Guitar attributes:
+	Color
+	Style
