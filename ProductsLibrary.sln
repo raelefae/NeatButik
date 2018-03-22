@@ -5,30 +5,7 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsLibrary", "ProductsLibrary\ProductsLibrary.csproj", "{E9A4ED73-4E1F-4918-B710-0640A0D916BC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{4178A108-D803-4C32-8393-81CB2AD1B8DE}"
-	ProjectSection(SolutionItems) = preProject
-		WebApplication2\Games.cshtml = WebApplication2\Games.cshtml
-		WebApplication2\Guitars.cshtml = WebApplication2\Guitars.cshtml
-		WebApplication2\Index.cshtml = WebApplication2\Index.cshtml
-		WebApplication2\SpecificGame.cshtml = WebApplication2\SpecificGame.cshtml
-		WebApplication2\SpecificGuitar.cshtml = WebApplication2\SpecificGuitar.cshtml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layouts", "Layouts", "{AA571076-A7B1-4DBE-A074-5BA4E11160D7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{1DE13F9F-C7F7-4DD2-9518-1AA7F5B260D2}"
-	ProjectSection(SolutionItems) = preProject
-		WebApplication2\data\games.json = WebApplication2\data\games.json
-		WebApplication2\data\guitars.json = WebApplication2\data\guitars.json
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{8B30326F-8538-4DE9-BECF-DFE0816E34E6}"
-	ProjectSection(SolutionItems) = preProject
-		WebApplication2\assets\games.css = WebApplication2\assets\games.css
-		WebApplication2\assets\guitars.css = WebApplication2\assets\guitars.css
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication3", "WebApplication3\WebApplication3.csproj", "{10217462-6D61-4644-A433-A416E940C256}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeatButikWebsite", "WebApplication3\NeatButikWebsite.csproj", "{10217462-6D61-4644-A433-A416E940C256}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,11 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{AA571076-A7B1-4DBE-A074-5BA4E11160D7} = {4178A108-D803-4C32-8393-81CB2AD1B8DE}
-		{1DE13F9F-C7F7-4DD2-9518-1AA7F5B260D2} = {4178A108-D803-4C32-8393-81CB2AD1B8DE}
-		{8B30326F-8538-4DE9-BECF-DFE0816E34E6} = {4178A108-D803-4C32-8393-81CB2AD1B8DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B281E91D-5AFE-4DAD-AD2F-9BAF4CDF3190}
